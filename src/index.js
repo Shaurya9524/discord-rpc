@@ -1,6 +1,7 @@
 import { config } from "dotenv"
 import discordRpc from "discord-rpc"
 import { data } from "./config/data.js"
+import { log } from "./lib/utils/log.js"
 config()
 
 const clientId = process.env.clientId
@@ -20,7 +21,9 @@ rpc.on("ready", () => {
     setActivity()
   }, 60 * 1000)
 
-  console.log("RPC is active")
+  log("success", "RPC is active")
 })
 
-rpc.login({ clientId }).catch(console.error)
+rpc.login({ clientId }).catch((err) => {
+  log("error", err)
+})
