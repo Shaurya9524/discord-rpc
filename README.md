@@ -2,6 +2,8 @@
 
 This project provides a simple and straightforward way to integrate Discord Rich Presence into your applications. You can display customised status messages and details to showcase the activity of your application to users on Discord.
 
+<img src="public/images/rpcInAction.png" alt="Discord RPC" style="border-radius: 8px">
+
 ## Authors
 
 - **Shaurya Chauhan** - [shadowop1575](https://github.com/shadowop1575)
