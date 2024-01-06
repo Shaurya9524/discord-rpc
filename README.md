@@ -6,7 +6,7 @@ This project provides a simple and straightforward way to integrate Discord Rich
 
 ## Authors
 
-- **Shaurya Chauhan** - [shadowop1575](https://github.com/shadowop1575)
+- **Shaurya Chauhan** - [Shaurya9524](https://github.com/Shaurya9524)
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ This project provides a simple and straightforward way to integrate Discord Rich
 1. Clone the project repository:
 
 ```bash
-git clone https://github.com/shadowop1575/discord-rpc.git
+git clone https://github.com/Shaurya9524/discord-rpc.git
 ```
 
 2. Install the project dependencies:
